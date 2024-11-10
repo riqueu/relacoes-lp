@@ -34,8 +34,17 @@ loja1.adicionar_instrumento(guitarra)
 loja1.adicionar_instrumento(baixo)
 loja1.adicionar_instrumento(violao)
 
-# Consultando estoque
-print("Consultando estoque:")
+# Consultando estoque pré rmeoção
+print("Consultando estoque pré-remoção:")
+print(f"Loja 1: {loja1.consultar_estoque()}")
+print(f"Loja 2: {loja2.consultar_estoque()}")
+print(f"Loja 3: {loja3.consultar_estoque()}")
+
+# Removendo um instrumento do estoque
+loja1.remover_instrumento(guitarra)
+
+# Consultando estoque pós remoção
+print("Consultando estoque pós-remoção:")
 print(f"Loja 1: {loja1.consultar_estoque()}")
 print(f"Loja 2: {loja2.consultar_estoque()}")
 print(f"Loja 3: {loja3.consultar_estoque()}")
