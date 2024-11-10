@@ -1,0 +1,4 @@
+Associação: Loja e Funcionario
+Composição: Loja e Instrumento
+Agregação: Loja e Loja
+Herança: Instrumento -> Guitarra, Baixo, e Violão
